@@ -28,14 +28,15 @@ body{
 }
 
 .header_list_item::before {
-    content: '✓';
+    /*content: '✓';*/
     margin-right: 5px;
+    content: url(check.svg);
   }
 
   .header_img{
       background-color: #ffff;
       width: 469px;
-height: 214px;
+    height: 214px;
   }
 
   .header_content{
@@ -134,7 +135,7 @@ line-height: 24px;
     background-color: #445161;
     margin-right: 14px;
     margin-bottom: 27px;
-    
+
 }
 
 .screen_info{
@@ -164,6 +165,7 @@ padding-bottom: 42px;
 .reviews_list {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .reviews_list_text{
@@ -171,7 +173,7 @@ padding-bottom: 42px;
     justify-content: space-between;
     margin-bottom: 22px ;
     margin-left: 20px;
-   
+  
 }
 
 .user_text{
@@ -179,16 +181,31 @@ padding-bottom: 42px;
     font-size: 14px;
 line-height: 18px;
 padding: 10px;
+position: relative;
+}
+
+.user_text:before {
+    content: '';
+border: 15px solid transparent;
+border-right: 20px solid #EBEBEB;
+position: absolute;
+left: -28px;
+top: 40px;
 }
 
 .reviews_img{
 margin-right: 15px;
+content: url(userpic.svg);
 }
 
 span{
     color: #989898;
     font-size: 14px;
   
+}
+
+.buy-bg{
+padding-bottom: 50px;
 }
 
 .buy_heading{
@@ -204,27 +221,46 @@ span{
     align-items: flex-end;
     justify-content: center;
 }
+.buy_price{
+    margin: 5px;
+background-color: white;
+color: #445162;
+font-size: 40px;
+text-align: center;
+padding-top: 25px;
+    padding-bottom: 16px;
+}
 
+.ol_card{
+    margin-top: 8px;
+    font-size: 14px;
+line-height: 24px;
+margin-left: 20px;
+}
+.submit_buy{
+    width: 262px;
+    height: 43px;
+    color:#445161;
+    font-weight: bold;
+    font-size: 18px;
+   margin: 19px 19px;
+   border-radius: 5px;
+}
 
 .standart{
-    width: 300px;
-    height: 306px;
     background-color: #445161;
     color: white;
     margin-right: 45px;
 }
 
 .premium{
-width: 300px;
-height: 404px;
 background-color: #445161;
     color: white;
     margin-right: 45px;
+    
 }
 
 .lux{
-width: 300px;
-height: 499px;
 background-color: #445161;
     color: white;
 }
@@ -233,6 +269,93 @@ background-color: #445161;
     font-size: 24px;
     text-align: center;
     padding-top: 13px;
+    padding-bottom: 10px;
 }
 
-.
+.footer{
+    background-color: #445162;
+    color: white;
+}
+
+.footer_heading{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 43px;
+}
+
+input{
+    display: block;
+}
+
+.form_input{
+    padding-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    width: 503px;
+    
+}
+.form_name {
+    width: 503px;
+    height: 43px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+}
+.form_email {
+    width: 503px;
+    height: 43px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+}
+.form_message{
+    width: 503px;
+    height: 173px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    
+}
+.form_send{
+    width: 143px;
+height: 43px;
+align-self: center;
+border-radius: 10px;
+font-weight: bold;
+font-size: 16px;
+color: #445162;
+
+}
+
+.footer_conacts{
+    font-size: 16px;
+    padding-left: 45px;
+}
+
+.skype{
+    padding-bottom: 19px;
+}
+.nomber {
+    padding-bottom: 19px;
+}
+.email {
+    padding-bottom: 19px;
+} 
+
+.social{
+padding-left: 30px;
+padding-top: 50px;
+}
+
+.footer_info{
+    display: flex;
+   justify-content: center;
+}
+
+address{
+    padding: 12px;
+    text-align: center;
+    color: #445162;
+    font-size: 12px;
+    background-color: #F5F5F5;
+}
+
+

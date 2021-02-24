@@ -13,7 +13,7 @@
 <body>
     <header class="header">
         <div class="header_content container">
-            <div class="">
+            <main class="">
                 <h1 class="header_title">Product name</h1>
                 <ul class="header_list">
                     <li class="header_list_item">Put on this page information about your product</li>
@@ -21,9 +21,10 @@
                     <li class="header_list_item">Tell us about the advantages and merits</li>
                     <li class="header_list_item">Associate the page with the payment system</li>
                 </ul>
-            </div>
-            <img class="header_img" src="" alt="">
-
+            </main>
+            <video controls id="video" class="header_img">
+                <source src="">
+            </video>
         </div>
     </header>
     <section class="about">
@@ -41,7 +42,7 @@
             <img class="about_img" src="" alt="">
         </div>
     </section>
-    <article class="pluse">
+    <section class="pluse">
         <div class="pluse-content container">
             <h3 class="pluse_heading">Dignity and pluses product</h3>
             <div class="pluse_list">
@@ -107,12 +108,11 @@
                 </section>
             </div>
         </div>
-    </article>
-    <article class="screen">
+    </section>
+    <section class="screen">
         <div class="container">
             <h2 class="screen_heading">Screenshots</h2>
-
-            <section class="screen_list">
+            <div class="screen_list">
                 <ul>
                     <li class="screen_info"> <img class="screen_img" src="" alt="">
                         <div>
@@ -167,14 +167,14 @@
                         </div>
                     </li>
                 </ul>
-
-            </section>
-    </article>
-    <article class="reviews-bgd">
+            </div>
+        </div>
+    </section>
+    <section class="reviews-bgd">
         <div class="container">
             <h2 class="reviews_heading">Reviews</h2>
             <ul class="reviews_list">
-                <li class="reviews_list_text"><img class="reviews_img" src="userpic.svg" alt="">
+                <li class="reviews_list_text"><img class="reviews_img" src="" alt="">
                     <div class="user_text">
                         <p>Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia
                             doloribus
@@ -187,7 +187,7 @@
                 </li>
 
                 <li class="reviews_list_text">
-                    <img class="reviews_img" src="userpic.svg" alt="">
+                    <img class="reviews_img" src="" alt="">
                     <div class="user_text">
                         <p>Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia
                             doloribus
@@ -199,7 +199,7 @@
                 </li>
             </ul>
             <ul class="reviews_list">
-                <li class="reviews_list_text"><img class="reviews_img" src="userpic.svg" alt="">
+                <li class="reviews_list_text"><img class="reviews_img" src="" alt="">
                     <div class="user_text">
                         <p>Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia
                             doloribus
@@ -212,7 +212,7 @@
                 </li>
 
                 <li class="reviews_list_text">
-                    <img class="reviews_img" src="userpic.svg" alt="">
+                    <img class="reviews_img" src="" alt="">
                     <div class="user_text">
                         <p>Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia
                             doloribus
@@ -224,36 +224,92 @@
                 </li>
             </ul>
         </div>
-    </article>
-    <div>
+    </section>
+    <div class="buy-bg">
         <div class="container">
             <h2 class="buy_heading">Buy it now</h2>
             <div class="buy_card">
                 <div class="standart">
                     <h3 class="buy_heading_mini">Standart</h3>
+                    <div class="buy_price">$100</div>
+                    <ol class="ol_card">
+                        <li>1. Porro officia cumque sint deleniti;
+                        </li>
+                        <li>2. Тemo facere rem vitae odit;</li>
+                        <li>3. Cum odio, iste quia doloribus autem;</li>
+                        <li>4. Aperiam nulla ea neque.</li>
+
+                    </ol>
+                    <button class="submit_buy" type="submit">BUY</button>
                 </div>
                 <div class="premium">
                     <h3 class="buy_heading_mini">Premium</h3>
+                    <div class="buy_price">$150</div>
+                    <ol class="ol_card">
+                        <li>1. Porro officia cumque sint deleniti;</li>
+                        <li>2. Тemo facere rem vitae odit;</li>
+                        <li>3. Cum odio, iste quia doloribus autem;</li>
+                        <li> 4. Aperiam nulla ea neque.</li>
+                        <li>5. Porro officia cumque sint deleniti;</li>
+                        <li>6. Тemo facere rem vitae odit;</li>
+                        <li>7. Cum odio, iste quia doloribus autem;</li>
+                        <li> 8. Aperiam nulla ea neque.</li>
+
+                    </ol>
+                    <button class="submit_buy" type="submit">BUY</button>
                 </div>
                 <div class="lux">
                     <h3 class="buy_heading_mini">Lux</h3>
+                    <div class="buy_price">$200</div>
+                    <ol class="ol_card">
+                        <li>1. Porro officia cumque sint deleniti; </li>
+                        <li>2. Тemo facere rem vitae odit;</li>
+                        <li>3. Cum odio, iste quia doloribus autem;</li>
+                        <li>4. Aperiam nulla ea neque.</li>
+                        <li>5. Porro officia cumque sint deleniti;</li>
+                        <li>6. Тemo facere rem vitae odit;</li>
+                        <li>7. Cum odio, iste quia doloribus autem;</li>
+                        <li>8. Aperiam nulla ea neque.</li>
+                        <li>9. Porro officia cumque sint deleniti;</li>
+                        <li>10. Тemo facere rem vitae odit;</li>
+                        <li>11. Cum odio, iste quia doloribus autem;</li>
+                        <li>12. Aperiam nulla ea neque.</li>
+                    </ol>
+                    <button class="submit_buy" type="submit">BUY</button>
                 </div>
             </div>
         </div>
     </div>
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <h2>Contacts</h2>
-            <form action="">
-                <input type="text">
-                <input type="text">
-                <input type="text">
-                <button>SEND</button>
-            </form>
-            <address></address>
+            <h2 class="footer_heading">Contacts</h2>
+            <div class="footer_info ">
+                <form class="form_input" action="">
+                    <input class="form_name" type="name" placeholder="Your name:">
+                    <input class="form_email" type="email" placeholder="Your email:">
+                    <input class="form_message" type="message" placeholder="Your message:">
+                    <button class="form_send">SEND</button>
+                </form>
+                <div>
+                    <ul class="footer_conacts">
+                        <li class="skype"><img src="skype icon.svg" alt=""> here_your_login_skype</li>
+                        <li class="nomber"><img src="Vector.svg" alt=""> 279679659</li>
+                        <li class="email"> <img src="email icon.svg" alt=""> psdhtmlcss@mail.ru</li>
+                        <li class="tel"> <img src="bx_bx-phone.svg" alt=""> 80 00 4568 55 55</li>
+                    </ul>
+
+                    <div class="social">
+
+                        <a href=""><img class="contact_icon" src="twitter.svg" alt=""></a>
+                        <a href=""> <img class="contact_icon" src="vk.svg" alt=""></a>
+                        <a href=""> <img class="contact_icon" src="google.svg" alt=""></a>
+                        <a href=""> <img class="contact_icon" src="facebook.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
-
+    <address class="container">Copyright © 2014 Product name · PSD HTML CSS</address>
 </body>
 
 </html>
